@@ -1,0 +1,96 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/campusServices/campusServices",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/ai/ai",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/collect/collect",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		 {
+			"path": "pages/index/release",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		
+		}
+	],
+	"globalStyle": {
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "Ebook",
+			"navigationBarBackgroundColor": "#F8F8F8",
+			"backgroundColor": "#F8F8F8",
+			"navigationStyle":"custom",//只看这两条其他的不用看
+			"app-plus": {
+					"titleView":false//只看这两条其他的不用看
+			    }
+		},
+		
+	// "uniIdRouter": {},
+
+	"tabBar": {
+		"list": [{
+				"text": "同城服务",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabBarIcon/tc.png",
+				"selectedIconPath": "static/tabBarIcon/tc.png"
+			},
+			{
+				"text": "校园服务",
+				"pagePath": "pages/campusServices/campusServices",
+				"iconPath": "static/tabBarIcon/xy.png",
+				"selectedIconPath": "static/tabBarIcon/xy.png"
+			},
+			{
+				"text": "AI",
+				"pagePath": "pages/ai/ai",
+				"iconPath": "static/tabBarIcon/ai.png",
+				"selectedIconPath": "static/tabBarIcon/ai.png"
+			},
+			{
+				"text": "收藏",
+				"pagePath": "pages/collect/collect",
+				"iconPath": "static/tabBarIcon/sc.png",
+				"selectedIconPath": "static/tabBarIcon/sc.png"
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/personal/personal",
+				"iconPath": "static/tabBarIcon/grzx.png",
+				"selectedIconPath": "static/tabBarIcon/grzx.png"
+			}
+		]
+	}
+
+
+
+}

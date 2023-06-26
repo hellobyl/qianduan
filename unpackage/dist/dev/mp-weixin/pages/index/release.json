@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "f-navbar": "../../components/f-navbar/f-navbar"
+  }
+}

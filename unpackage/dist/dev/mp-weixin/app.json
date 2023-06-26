@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/campusServices/campusServices",
+    "pages/ai/ai",
+    "pages/personal/personal",
+    "pages/collect/collect",
+    "pages/index/release"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Ebook",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "同城服务",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBarIcon/tc.png",
+        "selectedIconPath": "static/tabBarIcon/tc.png"
+      },
+      {
+        "text": "校园服务",
+        "pagePath": "pages/campusServices/campusServices",
+        "iconPath": "static/tabBarIcon/xy.png",
+        "selectedIconPath": "static/tabBarIcon/xy.png"
+      },
+      {
+        "text": "AI",
+        "pagePath": "pages/ai/ai",
+        "iconPath": "static/tabBarIcon/ai.png",
+        "selectedIconPath": "static/tabBarIcon/ai.png"
+      },
+      {
+        "text": "收藏",
+        "pagePath": "pages/collect/collect",
+        "iconPath": "static/tabBarIcon/sc.png",
+        "selectedIconPath": "static/tabBarIcon/sc.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/personal/personal",
+        "iconPath": "static/tabBarIcon/grzx.png",
+        "selectedIconPath": "static/tabBarIcon/grzx.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
